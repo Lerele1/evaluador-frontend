@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EvalúaTE MVP</title>
+</head>
+<body>
+  <h1>Formulario de Evaluación</h1>
+  <form method="GET" action="https://evaluafunc-app.azurewebsites.net/api/Evaluacion">
+    <label for="nombre">Nombre:</label>
+    <input name="nombre" placeholder="Tu nombre" required><br><br>
+
+    <label for="puntuacion">Puntuación:</label>
+    <input name="puntuacion" type="number" placeholder="Tu puntuación" required><br><br>
+
+    <label for="code">Code (clave de Azure):</label>
+    <input name="code" placeholder="Pega aquí tu code"><br><br>
+
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
